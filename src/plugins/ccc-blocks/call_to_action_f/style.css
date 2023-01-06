@@ -1,0 +1,26 @@
+/* ==========================================================================
+Block style - begin
+========================================================================== */
+
+.wp-block-image-with-text-block {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+}
+.wp-block-image-with-text-block .my-block-image {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+.wp-block-image-with-text-block .my-block-image img {
+    display: block;
+}
+
+.service_img
+{
+    max-width: 70px !important;
+    max-height: 70px !important;
+    display: inline-block;
+    object-fit: cover;
+}

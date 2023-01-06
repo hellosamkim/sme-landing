@@ -1,0 +1,39 @@
+/* ==========================================================================
+Block style - begin
+========================================================================== */
+.wp-block-ccc-blocks-cta-e
+{
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.wp-block-ccc-blocks-cta-e .issue_item
+{
+    padding: 15px;
+    height: 100%
+}
+.wp-block-ccc-blocks-cta-e .issue_item figure
+{
+    margin-bottom: 14px
+}
+.wp-block-ccc-blocks-cta-e .issue_item .issue_img img
+{
+    width: 100%;
+}
+.wp-block-ccc-blocks-cta-e .issue_item .cta-e-title
+{
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+.wp-block-ccc-blocks-cta-e a.element_link:hover
+{
+    text-decoration: none;
+}
+
+.wp-block-ccc-blocks-cta-e a.element_link:hover .excerpt
+{
+    color: black;
+}

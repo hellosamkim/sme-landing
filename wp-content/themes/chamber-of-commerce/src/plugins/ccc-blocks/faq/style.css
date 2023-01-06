@@ -1,0 +1,64 @@
+/* ==========================================================================
+Block style - begin
+========================================================================== */
+.faq_icon {
+    margin-top: 10px !important;
+    padding-left: 45px !important;
+}
+.faq_item
+{
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: 0.2s !important;
+    background: #fff;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.1);
+}
+.faq_item .faq_title
+{
+    padding: 25px;
+    cursor: pointer;
+    position: relative;
+    user-select: none;
+}
+.faq_item .faq_btn
+{
+    background-image: url(../../../themes/ekko-child/assets/icons/svg/faq-expand.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    float: right;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 45%;
+    right: 25px;
+}
+.faq_item.faq_active .faq_btn
+{
+    background-image: url(../../../themes/ekko-child/assets/icons/svg/faq-close.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.faq_icon::before {
+    float: left;
+    position: relative;
+    content: "Q";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 31px;
+    top: 22px;
+    left: -24px;
+    color: #006699 !important;
+}
+.faq_item .faq_title h4
+{
+    margin-bottom: 0px;
+}
+
+.faq_item .faq_content
+{
+    padding-bottom:25px;
+    padding-left:25px;
+    padding-right:25px;
+    padding-top:0px;
+}

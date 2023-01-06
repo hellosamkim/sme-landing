@@ -1,0 +1,9 @@
+{
+    "name": "anyday/ccc-blocks",
+    "description": "CCC Blocks",
+    "version": "1.0",
+    "type": "wordpress-plugin",
+    "require": {
+        "composer/installers": "~2.0"
+    }
+}

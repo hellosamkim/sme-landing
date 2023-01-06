@@ -1,0 +1,106 @@
+/* fonts */
+
+@layer base {
+
+  h1, .h1 {
+    @apply font-medium text-[3rem] tracking-[-0.05px] leading-[3.1rem];
+  }
+
+  h2, .h2 {
+    @apply font-medium text-[1.8rem] tracking-[-0.03px] leading-[1.4];
+  }
+
+  h3, .h3 {
+    @apply font-medium text-[1.5rem] tracking-[-0.02px] leading-[1.7rem];
+  }
+
+  h4, .h4 {
+    @apply font-medium text-[1.25rem] tracking-[-0.02px] leading-[1.25rem];
+  }
+
+  h5, .h5 {
+    @apply font-normal text-[1rem] tracking-[-0.02px] leading-[1.5];
+  }
+
+  .p-large *, .p-large {
+    @apply text-[1.15rem] leading-[1.5]
+  }
+  
+  body {
+    @apply text-dark;
+  }
+
+  p, li {
+    @apply text-dark-body;
+  }
+
+  .content p {
+    @apply mb-5;
+
+    &:nth-last-of-type(1) {
+      @apply mb-0;
+    }
+  }
+
+  .link, p a, li a {
+    @apply text-primary hover:text-primary-hover;
+  }
+
+  body, p {
+    @apply font-body font-normal text-[1rem] leading-[1.675rem];
+  }
+
+  a, i, .card, .animate-hover {
+    @apply transition-all;
+  }
+
+  .dates {
+    @apply text-xs uppercase;
+  }
+  
+  .breadcrumbs {
+    @apply text-xs font-normal tracking-normal transition-all;
+  }
+
+  a.breadcrumbs {
+    @apply opacity-50;
+    
+    &:hover {
+      @apply font-bold underline opacity-100;
+    }
+  }
+
+  .content ul {
+    @apply mb-5 list-disc;
+
+    li {
+      @apply ml-4;
+    }
+  }
+
+  @media screen and (max-width: 1025px) {
+    h1, .h1 {
+      @apply font-medium text-[2.25rem] tracking-[-0.03rem] leading-[1.1];
+    }
+
+    h5, .h5 {
+      @apply font-normal text-[0.875rem] tracking-[0] leading-[1rem];
+    }
+    
+    body, p {
+      @apply font-body font-normal text-[1rem] leading-[1.5rem];
+    }
+  }
+}
+
+@layer components {
+  .subtitle {
+    @apply font-normal text-[1.3rem] leading-[1.4];
+  }
+
+  @media screen and (max-width: 1025px) { 
+    .subtitle {
+      @apply text-[1.125rem] leading-6;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+   /**
+     * #.# Editor Styles
+     *
+     * CSS for just Backend enqueued after style.scss
+     * which makes it higher in priority.
+     */
+
+.wp-block-cgb-link-block {
+    background: #fafafa;
+    border-radius: 5px;
+    /*   border: 1px solid #cacaca;
+     color: $black;
+    margin: 0 auto;
+    max-width: 740px;
+    padding: 2rem;*/
+}
+
+.wp-block-quote {
+    margin-bottom: 0.5em;
+}
+
+button.add-more-link {
+    background: #939393;
+    border-radius: 50%;
+    position: relative;
+    border: none;
+    font-size: 2em;
+    color: white;
+    line-height: 1;
+}
+
+span.remove-link {
+    right: 30px;
+    position: absolute;
+}
+
+textarea.editor-plain-text.content-plain-text,
+.editor-url-input.block-editor-url-input.url-plain-text input{
+    background: #fafafa;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+}
+
+.editor-url-input.block-editor-url-input.url-plain-text input
+{
+    width: 100%;
+}

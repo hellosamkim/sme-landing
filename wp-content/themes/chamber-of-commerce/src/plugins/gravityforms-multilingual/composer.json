@@ -1,0 +1,9 @@
+{
+    "name": "anyday/gravityforms-multilingual",
+    "description": "Gravity Forms ML",
+    "version": "1.6.3",
+    "type": "wordpress-plugin",
+    "require": {
+        "composer/installers": "~2.0"
+    }
+}

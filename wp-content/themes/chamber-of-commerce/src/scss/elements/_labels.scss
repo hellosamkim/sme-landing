@@ -1,0 +1,27 @@
+.label {
+  @apply text-xs uppercase border py-[3px] px-[6px] rounded text-gray-dark border-gray-dark;
+
+  &.news {
+    @apply bg-[#072B58] border-[#072B58] text-white;
+  }
+
+  &.events {
+    @apply bg-[#00B2AB] border-[#00B2AB] text-white;
+  }
+
+  &.resources {
+    @apply bg-[#005753] border-[#005753] text-white;
+  }
+
+  &.publications {
+    @apply bg-[#665BBC] border-[#665BBC] text-white;
+  }
+  &.strategicissues {
+
+    @apply bg-[#FD952A] border-[#FD952A] text-white;
+  }
+
+  &.policycomitees {
+    @apply bg-[#D83E13] border-[#D83E13] text-white;
+  }
+}

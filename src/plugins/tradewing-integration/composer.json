@@ -1,0 +1,9 @@
+{
+    "name": "anyday/tradewing-integration",
+    "description": "Tradewing Integration",
+    "version": "0.0.2",
+    "type": "wordpress-plugin",
+    "require": {
+        "composer/installers": "~2.0"
+    }
+}

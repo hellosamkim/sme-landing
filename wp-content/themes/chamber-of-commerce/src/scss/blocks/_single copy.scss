@@ -1,0 +1,76 @@
+.single {
+  .main {
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  }
+
+  .prose {
+
+    blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
+      @apply mb-5;
+    }
+
+    blockquote p:first-of-type:before,
+    blockquote p:last-of-type:after {
+      @apply text-primary text-[1.8rem];
+    }
+    a {
+      @apply !no-underline !text-primary;
+  
+      &:hover {
+        @apply !text-primary-hover;
+      }
+    }
+
+    
+
+    .wp-block-button__link {
+      @apply py-3 px-7 rounded font-bold text-sm text-primary border-2 border-primary text-center uppercase !important;
+      background: none;
+
+      &:hover {
+        @apply bg-primary border-primary text-white !important;  
+      }
+    }
+
+    .kt-tabs-content-wrap > .wp-block-kadence-tab {
+      @apply border-0 p-6;
+    }
+
+    .kt-tabs-title-list {
+      @apply flex-nowrap;
+      li {
+        @apply p-0 ;
+        &:before {
+          @apply hidden;
+        }
+      }
+
+      @apply -mx-1 !border-b-2 !border-gray-background;
+
+      li {
+        @apply !mx-1 !mb-[-2px];
+        .kt-tab-title {
+          @apply opacity-50 !text-black font-bold !text-base w-full !py-5 uppercase text-center flex flex-row items-center justify-center;
+          
+          span {
+            @apply mr-4;
+
+            svg {
+              @apply max-h-7;
+            }
+          }
+        }
+
+        &.kt-tab-title-active {
+          .kt-tab-title {
+            @apply opacity-100 bg-white !border-indigo-DEFUALT !border-b-2;
+          }
+        }
+      }
+    }
+  }
+}

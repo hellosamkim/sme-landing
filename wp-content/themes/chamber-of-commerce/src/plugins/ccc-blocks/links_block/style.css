@@ -1,0 +1,49 @@
+/* ==========================================================================
+Block style - begin
+========================================================================== */
+.wp-block-ccc-blocks-links-block.side_bar_block{
+    margin: 20px 0px;
+    border-radius: 6px;
+}
+
+.wp-block-ccc-blocks-links-block.side_bar_block  {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.wp-block-ccc-blocks-links-block.side_bar_block li a {
+    color: #006599;
+    text-decoration: underline;
+    font-size: 18px;
+    line-height: 34px;
+}
+.wp-block-ccc-blocks-links-block.side_bar_block  li{
+    margin-bottom: 10px;
+}
+.wp-block-ccc-blocks-links-block.side_bar_block > div
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.wp-block-ccc-blocks-links-block .list_items
+{
+    margin-left: 0px !important;
+    margin-right: 0px !important
+}
+
+.wp-block-ccc-blocks-links-block .item_link
+{
+    color: #006599;
+    text-decoration: underline;
+}
+.wp-block-ccc-blocks-links-block.side_bar_block h3
+{
+    font-weight: bold;
+    margin-bottom: 10px !important;
+}
+.wp-block-ccc-blocks-links-block.side_bar_block ul
+{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}

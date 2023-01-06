@@ -1,0 +1,9 @@
+main > *:not(section) {
+  @apply container !m-auto;
+
+  &.aligncenter {
+    iframe {
+      @apply m-auto;
+    }
+  }
+}

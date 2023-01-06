@@ -1,0 +1,105 @@
+{
+    "key": "group_62d6e997b8e70",
+    "title": "Post Relationship",
+    "fields": [
+        {
+            "key": "field_62d6e9a342c26",
+            "label": "Issue",
+            "name": "issue",
+            "type": "checkbox",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "wpml_cf_preferences": 1,
+            "choices": {
+                "8211": "Agriculture & Agri-food",
+                "8637": "Cannabis",
+                "8216": "Cybersecurity",
+                "8221": "Digital Infrastructure",
+                "8218": "Finance & Fiscal Policy",
+                "8219": "Indigenous Affairs",
+                "8220": "Infrastructure",
+                "8222": "Intellectual Property",
+                "8223": "Internal Trade",
+                "8224": "International Affairs & Trade",
+                "8225": "Natural Resources, Environment & Energy",
+                "8226": "Privacy & Data Protection",
+                "8228": "Regulatory Reform",
+                "8229": "SMEs",
+                "8230": "Taxation",
+                "8227": "Territorial Economic Development",
+                "8231": "Transportation",
+                "8232": "Workforce Strategies"
+            },
+            "allow_custom": 0,
+            "default_value": [],
+            "layout": "vertical",
+            "toggle": 0,
+            "return_format": "value",
+            "save_custom": 0
+        },
+        {
+            "key": "field_62d6ea11974d9",
+            "label": "Committee",
+            "name": "committee",
+            "type": "checkbox",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "wpml_cf_preferences": 1,
+            "choices": {
+                "8191": "Agriculture & Agri-food Committee",
+                "11230": "Business at OECD",
+                "11231": "Canadian Services Coalition",
+                "8196": "Council for Women’s Advocacy",
+                "13444": "Digital Economy Committee",
+                "8207": "Economic & Taxation Committee",
+                "13464": "Health Innovation Committee",
+                "8199": "Indigenous Affairs Policy Committee",
+                "8202": "International Affairs Committee",
+                "8193": "National Cannabis Working Group",
+                "8210": "National Workforce Strategies Committee",
+                "8203": "Natural Resources & Environment Committee",
+                "8212": "Northern & Rural Affairs Committee",
+                "8204": "Ottawa Liaison Committee",
+                "8206": "SME Committee",
+                "8208": "Transportation & Infrastructure Committee"
+            },
+            "allow_custom": 0,
+            "default_value": [],
+            "layout": "vertical",
+            "toggle": 0,
+            "return_format": "value",
+            "save_custom": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 10,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1658342024
+}

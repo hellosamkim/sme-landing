@@ -1,0 +1,65 @@
+
+/* ==========================================================================
+Block editor style - begin
+========================================================================== */
+.featured_container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 4px;
+    height: 100%;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.featured_header
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 55%;
+    background-color: #f0f3f5;
+}
+
+.featured_header #img_header img
+{
+    width: 125px;
+    height: 125px;
+    /*object-fit: cover;*/
+}
+.personal_info
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    text-align: center;
+    height: 45%;
+    background-color: #f7f9fa;
+}
+
+.personal_info .full_name {
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+}
+
+.personal_info .member_subtitle {
+    color: #4d5961;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.featured_header .member_role
+{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 5px;
+    line-height: 22px;
+    color: black
+}
+
+.block-editor .block-editor-plain-text
+{
+    margin: 5px;
+    padding: 5px;
+}

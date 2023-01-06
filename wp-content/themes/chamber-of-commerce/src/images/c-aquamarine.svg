@@ -1,0 +1,17 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 164 329" width="164" height="329">
+	<title>Green-C (2)-svg</title>
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="m-3-1h168v330h-168v-330z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.s0 { fill: #00b9b4 } 
+	</style>
+	<g id="Clip-Path: Single_C" clip-path="url(#cp1)">
+		<g id="Single_C">
+			<path id="Path_2" class="s0" d="m89.69 164.08c0 9.81 1.92 19.52 5.65 28.59c3.73 9.07 9.19 17.33 16.09 24.3c6.9 6.97 15.09 12.53 24.12 16.36c9.03 3.83 18.72 5.86 28.53 5.97l0 88.85c-43.45-0.11-85.08-17.44-115.76-48.2c-30.68-30.76-47.92-72.43-47.92-115.88c0-43.45 17.23-85.12 47.92-115.88c30.68-30.76 72.31-48.09 115.76-48.2l0 88.85c-9.81 0.11-19.5 2.14-28.53 5.97c-9.03 3.83-17.22 9.39-24.12 16.36c-6.9 6.97-12.36 15.23-16.09 24.3c-3.73 9.07-5.65 18.78-5.65 28.59" />
+		</g>
+	</g>
+</svg>

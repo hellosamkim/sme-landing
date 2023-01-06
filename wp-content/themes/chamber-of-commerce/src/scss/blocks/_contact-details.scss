@@ -1,0 +1,28 @@
+.wp-block-column {
+  .contact-details {
+    h2 {
+      @apply h3;
+    }
+    .grid {
+      @apply flex flex-col gap-5;
+
+      h3 {
+        @apply h4;
+      }
+
+      a {
+        @apply text-sm;
+      }
+    }
+
+    &.single {
+      .flex-col.justify-between {
+        @apply px-6 bg-gray-light py-6;
+
+        a {
+          @apply mb-2;
+        }
+      }
+    }
+  }
+}

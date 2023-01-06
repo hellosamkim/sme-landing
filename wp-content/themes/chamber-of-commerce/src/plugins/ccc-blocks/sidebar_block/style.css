@@ -1,0 +1,116 @@
+/* ==========================================================================
+Block style - begin
+========================================================================== */
+
+.wp-block-ccc-blocks-sidebar-block .wp-block-column {
+    margin-left: 0px !important;
+}
+
+.right_container {
+    background-image: linear-gradient(to right, transparent 50%, #ffffff 50%);
+    background-color: transparent;
+}
+
+.post_content
+{
+    background-color:#fff;
+    border-radius: 5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+.wp-block-ccc-blocks-sidebar-block .sidebar-right > div:first-child {
+    margin-top: 0px !important;
+}
+
+@media (max-width: 479px) {
+
+    .wp-block-ccc-blocks-sidebar-block{
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+}
+
+@media (max-width: 959px) and (min-width: 480px) {
+    .wp-block-ccc-blocks-sidebar-block{
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+
+}
+
+@media (min-width: 960px) {
+
+    .wp-block-ccc-blocks-sidebar-block{
+        width: calc(100vw);
+        margin-left: calc(0px - (calc((100vw - 750px)/2)));
+        padding-left: calc((100vw - 750px)/2);
+        padding-right: calc((100vw - 750px)/2);
+    }
+
+
+}
+@media (width: 960px) {
+    .wp-block-ccc-blocks-sidebar-block{
+        margin-left: calc(0px - (calc((100vw - 750px)/2) + 15px));
+    }
+}
+@media (min-width: 992px) {
+    .wp-block-ccc-blocks-sidebar-block{
+        width: calc(100vw);
+        margin-left: calc(0px - ((100vw - 970px)/2));
+        padding-left: calc((100vw - 970px)/2);
+        padding-right: calc((100vw - 970px)/2);
+    }
+
+}
+@media (min-width: 1270px) {
+    .wp-block-ccc-blocks-sidebar-block{
+        width: calc(100vw);
+        margin-left: calc(0px - ((100vw - 1240px)/2));
+        padding-left: calc((100vw - 1240px)/2);
+        padding-right: calc((100vw - 1240px)/2);
+    }
+
+}
+
+@media (max-width: 1199px) and (min-width: 992px)
+{
+    .post_content
+    {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+    }
+}
+@media (max-width: 991px) and (min-width: 768px)
+{
+    .post_content
+    {
+        padding-left: 0px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    .right_container {
+        background-color: #ffffff !important;
+        background-image: none !important;
+    }
+}
+@media (max-width: 768px) {
+    .post_content
+    {
+        padding-left: 0px;
+        padding-bottom: 24px;
+        padding-top: 24px;
+    }
+}
+/*
+@media (max-width: 991px) {
+    .wp-block-ccc-blocks-sidebar-block
+    {
+        padding-left: 0px;
+    }
+}*/

@@ -1,0 +1,14 @@
+.pagination {
+  .page-numbers {
+    @apply font-body font-normal text-[1rem] leading-[1.675rem] px-1;
+
+    &.current {
+      @apply font-bold relative;
+
+      &:after {
+        content: "";
+        @apply absolute w-full h-full border-b-2 border-primary -bottom-1 left-0;
+      }
+    }
+  }
+}

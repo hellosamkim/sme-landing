@@ -1,0 +1,8 @@
+.featured-posts.bg-overlay {
+  .container {
+    &:before {
+      content: "";
+      @apply absolute w-[120%] h-[75%] bg-footer-text ml-[-2%] mt-[-10%] lg:mt-[-2%] rounded;
+    }
+  }
+}

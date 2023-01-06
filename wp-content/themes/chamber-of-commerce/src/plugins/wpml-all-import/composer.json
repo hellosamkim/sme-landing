@@ -1,0 +1,9 @@
+{
+    "name": "anyday/wpml-all-import",
+    "description": "WPML All Import",
+    "version": "1.0",
+    "type": "wordpress-plugin",
+    "require": {
+        "composer/installers": "~2.0"
+    }
+}

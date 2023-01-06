@@ -1,0 +1,13 @@
+#advertisements {
+  .slick-dots {
+    @apply flex justify-center mt-3;
+
+    li {
+      @apply mx-1 text-[0px] w-3 h-3 bg-gray rounded-full; 
+      
+      &.slick-active {
+        @apply bg-primary;
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.tabbed-content, .tabbed-content-text {
+  .active {
+    @apply opacity-100 border-indigo-DEFUALT border-b-2;
+  }
+
+  .slick-slide {
+    @apply h-0;
+
+    &.slick-active {
+      @apply h-full;
+    }
+  }
+}

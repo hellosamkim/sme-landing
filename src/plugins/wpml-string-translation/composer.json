@@ -1,0 +1,9 @@
+{
+    "name": "anyday/wpml-string-translation",
+    "description": "WPML string translation",
+    "version": "3.0",
+    "type": "wordpress-plugin",
+    "require": {
+        "composer/installers": "~2.0"
+    }
+}

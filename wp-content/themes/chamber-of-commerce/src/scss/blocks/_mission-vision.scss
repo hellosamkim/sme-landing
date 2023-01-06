@@ -1,0 +1,8 @@
+.mission-vision {
+  .container {
+    &:before {
+      content: "";
+      @apply absolute w-[155%] h-[100%] left-[-50%] bg-footer-text ml-[-2%] mt-[-4rem] rounded;
+    }
+  }
+}

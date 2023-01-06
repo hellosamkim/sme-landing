@@ -1,0 +1,9 @@
+{
+    "name": "anyday/wpai-user",
+    "description": "WP All Import User",
+    "version": "1.0",
+    "type": "wordpress-plugin",
+    "require": {
+        "composer/installers": "~2.0"
+    }
+}

@@ -1,0 +1,232 @@
+label:not(.gfield_consent_label) {
+  @apply font-semibold text-gray-dark !text-sm uppercase;
+}
+
+.ginput_container_consent input {
+  @apply mr-1;
+}
+
+body input,
+body textarea,
+body select {
+  @apply text-black border rounded outline-none !px-4 !py-3 !text-sm font-light;
+  &::placeholder {
+    @apply text-gray-text;
+  }
+
+  &:focus {
+    @apply search-shadow outline-none ring-1 ring-gray-400 border-black;
+  }
+}
+
+.accordion-header > button {
+  @apply text-black outline-none !px-4 !py-3 !text-sm w-full text-left border-b;
+
+  svg {
+    @apply transition-all;
+  }
+
+  &[aria-expanded="true"] {
+    svg {
+      @apply rotate-180;
+    }
+  }
+}
+
+.gform_validation_errors {
+  @apply !hidden opacity-0;
+}
+
+.gfield_error label {
+  @apply !text-gray-dark;
+}
+.gfield {
+  @apply relative;
+}
+
+.gform_wrapper .gfield_error [aria-invalid="true"],
+.error {
+  @apply !border-primary;
+}
+
+body .gform_wrapper .gfield_validation_message,
+.gform_wrapper .validation_message {
+  @apply border-0 bg-none p-0 bg-transparent !pt-0 !text-[10px] text-primary !leading-[1];
+}
+
+.ginput_container_consent {
+  position: relative;
+  padding-left: 40px;
+
+  &:hover label:after {
+    border-color: #fe4812;
+  }
+}
+
+.bg-footer-search:focus {
+  @apply !border-white text-white;
+}
+
+label {
+  &:not(.form-label, .radio-container, .error, .custom-label, .gfield_label) {
+    &:after {
+      border: 1px solid #8896a0;
+      content: "";
+      width: 24px;
+      height: 24px;
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 5px;
+      border-radius: 3px;
+      z-index: 0;
+    }
+
+    &:before {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 7px;
+      height: 13px;
+      border: solid #fff;
+      border-width: 0 2.5px 2.5px 0;
+      left: 9px;
+      top: 4px;
+      transform: rotate(45deg);
+      opacity: 0;
+      z-index: 1;
+      transition: all 100ms;
+    }
+  }
+  &.error {
+    @apply normal-case text-red-700 text-sm;
+  }
+}
+
+label.radio-container {
+  &:after {
+    border: 1px solid #8896a0;
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 3px;
+    z-index: 0;
+    border-radius: 100%;
+  }
+
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 6px solid #ffcaba;
+    border-radius: 100%;
+    top: 3px;
+    left: 0;
+    bottom: 0;
+    margin-top: 0px;
+    opacity: 0;
+    z-index: 1;
+    transition: all 100ms;
+  }
+  &.error {
+    @apply normal-case text-red-700 text-sm;
+  }
+}
+
+input[type="checkbox"] {
+  &:not(.form-checkbox) {
+    opacity: 0;
+    outline: none;
+    z-index: 100;
+    width: 24px;
+    height: 24px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    appearance: none;
+    cursor: pointer;
+    + label {
+      cursor: pointer;
+    }
+    &:checked + label {
+      &:before {
+        opacity: 1;
+        top: 9px;
+      }
+
+      &:after {
+        background: #fe4812;
+      }
+    }
+  }
+}
+
+input[type="radio"] {
+  opacity: 0;
+  outline: none;
+  z-index: 100;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 0;
+  appearance: none;
+  cursor: pointer;
+  + label {
+    cursor: pointer;
+  }
+  &:checked + label {
+    &:before {
+      opacity: 1;
+      top: 3px;
+    }
+
+    &:after {
+      @apply bg-primary;
+    }
+  }
+
+  &:hover + label {
+    &:after {
+      @apply border-primary;
+    }
+  }
+}
+
+.form-step {
+  &.hidden {
+    @apply !block !h-0 overflow-hidden;
+  }
+}
+
+.custom-label {
+  &.active {
+    @apply bg-primary text-white;
+    p {
+      @apply text-white;
+    }
+  }
+}
+
+.newsletter {
+  form {
+    @apply md:flex items-end w-full max-w-4xl mx-auto;
+    .gform_footer {
+      @apply !p-0 !m-0 text-center;
+    }
+    .gform_body {
+      @apply w-full;
+    }
+    .gform_button {
+      @apply !m-0 md:!ml-5 !mt-3 md:!mt-0;
+      @apply py-3 px-7 rounded font-bold text-sm bg-primary text-white border-2 border-primary text-center uppercase cursor-pointer !important;
+      &:hover {
+        @apply bg-primary-hover border-primary-hover text-white !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+@import "./utils/_fonts.scss";
+@import "./utils/_utilities.scss";
+@import "./utils/_helper.scss";
+@import "./utils/_slick.scss";
+@import "./_config.scss";
+
+@import "./common/_header.scss";  
+@import "./common/_footer.scss";
+
+@import "./elements/_breadcrumbs.scss";
+@import "./elements/_buttons.scss";
+@import "./elements/_cta.scss";
+@import "./elements/_form-fields.scss";
+@import "./elements/_labels.scss";
+@import "./elements/_pagination.scss";
+@import "./elements/_social-media.scss";
+@import "./elements/_text-button.scss";
+@import "./elements/_card.scss";
+@import "./elements/_accordion.scss";
+@import "./elements/_columns.scss";
+@import "./elements/_table.scss";
+@import "./elements/_ads.scss";
+@import "./elements/_wp-block.scss";
+
+@import "./blocks/_hero.scss";
+@import "./blocks/_featured-posts.scss";
+@import "./blocks/_mission-vision.scss";
+@import "./blocks/_tabbed-content.scss";
+@import "./blocks/_contact-details.scss";
+@import "./blocks/_sponsorship-advertising.scss";
+@import "./blocks/_text-only.scss";
+@import "./blocks/_posts.scss";
+@import "./blocks/_single.scss";
+@import "./blocks/_ccc-plugin-override.scss";
+@import "./blocks/_featured-business.scss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

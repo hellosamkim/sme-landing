@@ -1,0 +1,9 @@
+{
+    "name": "anyday/acfml",
+    "description": "Advanced Custom Fields Multilingual",
+    "version": "1.10.1",
+    "type": "wordpress-plugin",
+    "require": {
+        "composer/installers": "~2.0"
+    }
+}

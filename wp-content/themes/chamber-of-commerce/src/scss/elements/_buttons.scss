@@ -1,0 +1,51 @@
+.button-outline {
+  &__primary {
+    @apply py-3 px-7 rounded font-bold text-sm text-primary border-2 border-primary text-center uppercase  !important;
+    @apply inline-block;
+
+    &:hover {
+      @apply bg-primary border-primary text-white !important;
+    }
+  }
+
+  &__white {
+    @apply py-3 px-7 rounded font-bold text-sm text-white text-center uppercase border-2 border-white !important;
+
+    &:hover {
+      @apply bg-primary border-primary !important;
+    }
+  }
+}
+
+.button-filled {
+  &__primary {
+    @apply py-3 px-7 rounded font-bold text-sm bg-primary text-white border-2 border-primary text-center uppercase    !important;
+
+    @apply inline-block;
+    &:hover {
+      @apply bg-primary-hover border-primary-hover text-white !important;
+    }
+  }
+}
+
+.text-button {
+  @apply tracking-[-0.02px] uppercase;
+
+  i {
+    @apply border border-primary w-8 h-8 inline-flex items-center justify-center rounded-full;
+  }
+
+  span {
+    @apply text-primary relative right-[-0.5rem] transition-all;
+  }
+
+  &:hover {
+    i {
+      @apply bg-primary text-white;
+    }
+
+    span {
+      @apply text-black right-[-0.1rem];
+    }
+  }
+}

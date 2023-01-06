@@ -1,0 +1,9 @@
+{
+    "name": "anyday/wpai-acf",
+    "description": "WP All Import ACF",
+    "version": "1.0",
+    "type": "wordpress-plugin",
+    "require": {
+        "composer/installers": "~2.0"
+    }
+}

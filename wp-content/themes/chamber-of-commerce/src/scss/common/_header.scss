@@ -1,0 +1,23 @@
+header {
+  .menu-cta {
+    @apply bg-primary text-white rounded-br rounded-bl mb-[-8px] ml-4 hover:border-none !important; 
+  
+    & > a {
+      @apply px-5 w-full h-full flex items-center;
+    }
+
+    &:hover {
+      @apply bg-primary-hover !important;
+    }
+  }
+
+  &.fixed-header {
+    .fixed.nav {
+      @apply top-0;
+    }
+  }
+}
+
+nav li a.active {
+  @apply border-b-2 text-primary;
+}

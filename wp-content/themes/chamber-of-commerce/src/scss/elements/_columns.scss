@@ -1,0 +1,27 @@
+.wp-block-columns {
+  @apply mb-0 ml-auto mr-auto py-16 lg:py-0;
+
+  @media (min-width: 640px){
+    max-width: 640px;
+  }
+  @media (min-width: 768px){
+    max-width: 768px;
+  }
+  @media (min-width: 1025px){
+    max-width: 1025px;
+  }
+  @media (min-width: 1280px){
+    max-width: 1280px;
+  }
+}
+.wp-block-column {
+  @apply relative;
+
+  .py-16 {
+    @apply py-8;
+  }
+
+  & > .py-16:nth-child(1) {
+    @apply py-16;
+  }
+} 

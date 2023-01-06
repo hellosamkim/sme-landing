@@ -1,0 +1,80 @@
+{
+    "name": "anyday/chamber",
+    "type": "project",
+    "description": "Chamber",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "secure-http": false,
+        "allow-plugins": {
+            "ffraenz/private-composer-installer": true,
+            "composer/installers": true
+        }
+    },
+    "require": {
+        "composer/installers": "~2.0",
+        "advanced-custom-fields/advanced-custom-fields-pro": "*",
+        "anyday/gravityforms": "^1.0",
+        "wpackagist-plugin/duplicate-page": "4.5",
+        "anyday/acfml": "^1.10",
+        "anyday/gravityforms-multilingual": "^1.6",
+        "wpackagist-plugin/search-and-replace": "3.2.1",
+        "wpackagist-plugin/svg-support": "2.5.1",
+        "wpackagist-plugin/tinymce-advanced": "5.6.0",
+        "wpackagist-plugin/wordpress-seo": "19.6.1",
+        "anyday/sitepress-multilingual-cms": "^4.0",
+        "anyday/wpai": "^1.0",
+        "anyday/wpai-acf": "^1.0",
+        "anyday/wpai-user": "^1.0",
+        "anyday/wpml-all-import": "^1.0",
+        "anyday/wpml-string-translation": "^3.0",
+        "wpackagist-plugin/kadence-blocks": "2.4.14",
+        "wpackagist-plugin/wp-crontrol": "1.14.0",
+        "wpackagist-plugin/members": "3.2.1",
+        "anyday/ccc-blocks": "^1.0",
+        "anyday/sage-integration": "^1.0",
+        "anyday/integration-dynamics": "^1.0",
+        "anyday/jwt-auth": "^1.0",
+        "anyday/tradewing-integration": "^0.0.2"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "advanced-custom-fields/advanced-custom-fields-pro",
+                "version": "5.12.1",
+                "type": "wordpress-plugin",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%ACF_PRO_KEY}&t={%ACF_PRO_VERSION}"
+                },
+                "require": {
+                    "composer/installers": "~2.0",
+                    "ffraenz/private-composer-installer": "^5.0"
+                }
+            }
+        },
+        {
+            "type": "path",
+            "url": "src/plugins/*",
+            "options": {
+                "symlink": false
+            }
+        }
+    ],
+    "extra": {
+        "private-composer-installer": {
+            "dotenv-path": ".",
+            "dotenv-name": ".env"
+        },
+        "installer-paths": {
+            "wp-content/plugins/{$name}/": [
+                "type:wordpress-plugin"
+            ]
+        }
+    }
+}

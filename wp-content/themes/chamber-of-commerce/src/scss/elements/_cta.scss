@@ -1,0 +1,7 @@
+.cta {
+  @apply py-3 px-6 rounded font-bold bg-primary text-sm text-white text-center !important;
+
+  &:hover {
+    @apply bg-primary-hover border-b-0 !important;  
+  }
+}

@@ -1,0 +1,50 @@
+body > section {
+  @apply overflow-hidden;
+}
+
+/* img scale animation */
+a.img-scale {
+  .img-container {
+    @apply overflow-hidden;
+
+    img {
+      @apply transition-all;
+    }
+  }
+  
+  &:hover {
+    img {
+      @apply scale-125;
+    }
+  }
+}
+
+.remove-top-padding {
+  padding-top: 0 !important;
+}
+
+.remove-bottom-padding {
+  padding-bottom: 0 !important;
+}
+
+.remove-right-padding {
+  padding-right: 0 !important;
+}
+
+.remove-left-padding {
+  padding-left: 0 !important;
+}
+
+.contained-width {
+  @apply !max-w-4xl !mx-auto;
+}
+
+.aligncenter {
+  margin: auto;
+}
+
+svg {
+  * {
+    @apply fill-current;
+  }
+}

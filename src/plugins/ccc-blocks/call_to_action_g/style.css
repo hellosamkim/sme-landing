@@ -1,0 +1,61 @@
+/* ==========================================================================
+Block style - begin
+========================================================================== */
+.wp-block-image-with-text-block {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+}
+.wp-block-image-with-text-block .my-block-image {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+.wp-block-image-with-text-block .my-block-image img {
+    display: block;
+}
+.wp-block-image-with-text-block .my-block-content {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    margin-top: 20px;
+}
+.wp-block-image-with-text-block .my-block-title {
+    margin: 0;
+}
+.wp-block-image-with-text-block .my-block-text {
+    margin: 0;
+}
+
+.wp-block-ccc-blocks-cta-g
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.cta_g_img
+{
+    min-width: 50px;
+    max-width: 300px !important;
+    height: 50px !important;
+    display: inline-block;
+    object-fit: cover;
+}
+
+.wp-block-ccc-blocks-cta-g .cta_block
+{
+    padding: 24px 32px;
+}
+.wp-block-ccc-blocks-cta-g .cta_block .cta_content
+{
+    margin-bottom: 24px;
+}
+.wp-block-ccc-blocks-cta-g .cta_block .cta_content p
+{
+    margin-bottom: 0px!important;
+}
+.wp-block-ccc-blocks-cta-g .cta_block .vc_btn3-container
+{
+    margin-bottom: 0px;
+}

@@ -1,0 +1,9 @@
+{
+    "name": "anyday/sage-integration",
+    "description": "Sage Integration",
+    "version": "1.0",
+    "type": "wordpress-plugin",
+    "require": {
+        "composer/installers": "~2.0"
+    }
+}

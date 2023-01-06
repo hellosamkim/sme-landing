@@ -1,0 +1,31 @@
+
+/* ==========================================================================
+Block editor style - begin
+========================================================================== */
+.round_white_button input {
+    border: 1px solid #006699 !important;
+    background-color: transparent !important;
+    color: #006699 !important;
+    font-family: "OpenSans-Bold";
+    margin-bottom: 10px;
+    height: 38px;
+    border-radius: 31px !important;
+    font-size: 14px !important;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-left: 19px !important;
+    padding-right: 19px !important;
+    display: inline-flex !important;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+.round_white_button input:hover{
+    border: 1px solid #006699 !important;
+    background-color: #006699 !important;
+    color: #ffffff !important;
+}
+.uri_input input{
+    width: 100%;
+}

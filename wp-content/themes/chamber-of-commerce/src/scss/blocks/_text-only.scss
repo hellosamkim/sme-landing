@@ -1,0 +1,43 @@
+.text-only-section {
+  .content {
+    h2, h3 {
+      @apply pb-10;
+    }
+  }
+
+  iframe, img, video {
+    @apply max-w-full;
+  }
+}
+
+.wp-block-column {
+  .text-only-section {
+    h2 {
+      @apply h4;
+    }
+    .grid {
+      @apply flex flex-col gap-5;
+
+      h3 {
+        @apply h4;
+      }
+
+      a {
+        @apply text-sm;
+      }
+    }
+
+    &.single {
+      .items-end.block.pb-10 {
+        @apply pb-4;
+      }
+      .max-w-4xl.mx-auto {
+        @apply px-6 bg-gray-light py-6;
+
+        a {
+          @apply mb-2;
+        }
+      }
+    }
+  }
+}

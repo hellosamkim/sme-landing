@@ -1,0 +1,9 @@
+.content {
+  table {
+    @apply w-full;
+
+    td {
+      @apply p-2 border;
+    }
+  }
+}

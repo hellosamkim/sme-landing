@@ -1,0 +1,14 @@
+.posts.bg-overlay {
+  .featured {
+    @apply my-16;
+    &:before {
+      content: "";
+      @apply absolute w-[150%] h-[120%] bg-footer-text ml-[-2%] mt-[-3.5%] rounded;
+    }
+  }
+}
+
+.mobile-drawer {
+  box-shadow: -2px 0px 20px 20px rgb(0, 0, 0, 0.2);
+  @apply fixed top-0 right-0 z-[999] max-w-xs bg-white lg:static lg:bg-transparent lg:p-0 p-5 overflow-auto lg:h-auto h-screen pb-20 lg:!shadow-none lg:translate-x-0 translate-x-[130%] transition-all transform;
+}
